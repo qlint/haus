@@ -1,38 +1,15 @@
-# Lablog
-For stream series! Channel https://www.youtube.com/badCoder
-![lablog](https://raw.githubusercontent.com/nilsenj/lablog/master/src/assets/images/Screenshot.png)
-
-So guys! The stream is finished! 
-I have assignments for those who wanted to experiment with code))
-This is for those who viewed Laravel + Angular4 stream series on my channel!
-
-* Create admin panel!
-    * Create Rights & Privileges! I've done something similar in djinni.co clone "skillhire" on my channel.
-    * Users management from admin panel! Add, delete, ban, edit.
-    * Logs output from admin panel! You can use "arcanedev/log-viewer" package for that. 
-    * Work with filesystem.
-        * Upload photos for posts!
-          You can use "plank/laravel-mediable" package.
-        * Write client for filesystem for admin panel!
-    * System commands through routes! For example dump database or make reset)) Or one button click go to maintenance mode. and etc.
-    * Posts management in admin panel! Posts pre moderation! 
-       Delete, Update, create from admin panel!
-
-#This is a full-stack combination of Laravel 5.4 and Angular4
-to run it type `npm run serve`
-and launch your laravel app.
-It will build scripts and and watch for files changes! `hint` without live-reload
-####or
-`ng serve` will just launch client app from webpack/node server
-# App
-Angular part of the project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
+# Haus
+Angular part of the project was generated with [Angular CLI](https://github.com/angular/angular-cli)
 
 ##See jwt branch
 If you want JWT Auth, Toastr notifications and small fixes 
 use jwt branch
 
+## Backend PHP server (api)
 
-## Development server
+Run `php artisan serve` (after setting up and running key, env, migrations etc). Note the url you are using for this api and use it in src/config/app.ts (api_url)
+
+## Front End Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
